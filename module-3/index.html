@@ -1,1 +1,125 @@
-<h1>hello</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title></title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>-->
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"><!--for scroll effect-->
+	<link rel="stylesheet" type="text/css" href="animate.css"><!--for animation effect-->
+
+     <!--Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+
+    <style>
+    	nav{
+    		background-color: #12498c;
+    	}
+    	nav li{
+    		color: red;
+    	}
+    	#Navbar a{
+		    color:white;
+		    text-decoration: none;
+			text-transform: uppercase;
+			font-weight: 900;
+			font-size: 20px;
+			position: relative;
+			font-family: 'Libre Baskerville', serif;
+			margin-left: 20px;
+			text-align: center;
+		}
+		.main h3{
+			text-align: center;
+			color: white;
+		}
+		.box{
+			background-color: #12498c;
+			margin-top: 50px;
+			padding-top: 2px;
+			padding-left: 5px;
+			padding-right: 5px;
+		}
+		.main p{
+			padding-left: 3px;
+			padding-right: 3px;
+			padding-top: 5px;
+			color: white;
+			font-style: italic;
+		}
+    </style>
+</head>
+<body>
+	<nav class="navbar navbar-expand-sm header"><!--navbar used to construct navigation tag , navbar-expand-sm means that the nav bar will toggle when it is xs and sm, fixed top for fixing at top-->
+        <div class="container-fluid">
+
+        <!--<div  class="col-sm-3 col-12  float-right">-->
+            
+            <a href="#" class="navbar-brand mr-6" style="color:white; font-size: 30px">FOOD, LLC</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar" style="background-color: white; border:1px solid black"><!--data toggle is java script component-->
+                <span class="navbar-toggler-icon" style="width: 50px;color: #12498c;" ><b><u>Menu</u></b></span> 
+            </button>
+        	
+        <!--</div>
+        <div class="col-sm-9">-->
+            <div class="collapse navbar-collapse " id="Navbar">
+                <ul class="navbar-nav mr-auto"><!--mrauto is used to shift the content to left from the right side-->
+                    <li class="nav-item d-block d-sm-none d-xl-none"><a href="#" class="nav-link">Chicken</a></li>
+                    <li class="nav-item d-block d-sm-none d-xl-none"><a href="#" class="nav-link">Beef</a></li>
+                    <li class="nav-item d-block d-sm-none d-xl-none"><a href="#" class="nav-link">Sushi</a></li>
+                </ul> 
+            </div> 
+        <!--</div> -->        
+        </div>
+    </nav>
+
+    <h1 style="text-align: center;color: #12498c; margin-top: 50px;">OUR MENUE</h1>
+
+  	<div class="container-fluid">
+  		<div class="row main">
+  			<div class="col-md-4 col-sm-6 col-12">
+  				<div class="box">
+  					<h3>Chicken</h3>
+  					<p>
+  						It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+  					</p>
+  				</div>
+  			</div>
+  			<div class="col-md-4 col-sm-6 col-12" >
+  				<div class="box">
+  					<h3>Beef</h3>
+  					<p>
+  						It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+  					</p>
+  				</div>
+  			</div>
+  			<div class="col-md-4 col-12" >
+  				<div class="box">
+  					<h3>Sushi</h3>
+  					<p>
+  						It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+  					</p>
+  				</div>
+  			</div>
+  		</div>
+  	</div>
+
+
+
+    <!-- jQuery (Bootstrap JS plugins depend on it) -->
+	  <script src="js/jquery-3.5.1.slim.min.js"></script>
+	  <script src="js/bootstrap.min.js"></script>
+	  <script src="js/bootstrap.bundle.min.js"></script>
+	  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</body>
+</html>
